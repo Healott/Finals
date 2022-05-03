@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style1.css">
+    <div class="bgmain">
+
+      <img class="bgmain" src="mm.jpg" alt="">
+    </div>
+
+    <title>User</title>
+
+<!-- SIDEBAR -->
+    <div id="side" class="sidebar">
+      <div class="header">
+        <img src="logo2.png" alt="">
+      </div>
+      <div class="menu">
+        <div type="button" onclick="chker('side')"></div>
+          <a href="#" class="link" id="home" onclick="home()"><ion-icon name="home-outline"></ion-icon>&emsp;Home</a>
+
+        <br>
+
+          <a href="#" class="link" id="admin" onclick="admin()"><ion-icon name="person-outline"></ion-icon>&emsp;Profile</a>
+
+
+        <br>
+
+          <a href="#" class="link" id="settings"><ion-icon name="settings-outline"></ion-icon>&emsp;Settings</a>
+
+        <br>
+
+          <a href="Login.html" class="link"><ion-icon name="log-out-outline"></ion-icon>&emsp;Sign out</a>
+
+        <br>
+
+      </div>
+    </div>
+<!------------------------------------------------------------------------------------------->
+
+<!-- HOME PAGE -->
+    <div id="man"class="mains">
+      <div id="homePage" class="homePage">
+          <img class="anns" src="Home/1.jpg" alt="">
+          <img class="anns" src="Home/2.jpg" alt="">
+          <img class="anns" src="Home/3.jpg" alt="">
+          <div class="ano">
+            <div id="contenter"class="con">
+                            </div>
+          </div>
+      </div>
+    </div>
+<!------------------------------------------------------------------------------------------>
+
+<!-- EMPLOYEE PAGE -->
+    <div id="adminn"class="adminPages">
+      <div class="studentOp">
+        <div class="words">
+          User Profile
+        </div>
+        <div class="butt">
+          <input class="edit" type="button" value="Apply Changes" onclick="addRow()">
+        </div>
+        <table class="geh">
+              <tr>
+                  <td class="a">
+                  Surname
+                  <input type="text" name="" value="" class="inp" id="inp1">
+                  </td>
+                  <td class="b">
+                  First Name
+                  <input type="text" name="" value="" class="inp" id="inp2">
+                  </td>
+                  <td class="c">
+                  Middle initial
+                  <input type="text" name="" value="" class="inp" id="inp3">
+                  </td>
+                  <td class="d">
+                  ID Number
+                  <input type="text" name="" value="" class="inp" id="inp4" disabled>
+                  </td>
+                  <td class="e">
+                  Username
+                  <input type="text" name="" value="" class="inp" id="inp5">
+                  </td>
+                  <td class="f">
+                  Password
+                  <input type="text" name="" value="" class="inp" id="inp6">
+                  </td>
+              </tr>
+          </table>
+
+            <div id="content"class="con">
+                            </div>
+      </div>
+    </div>
+<!------------------------------------------------------------------------>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script src="java.js"></script>
+</html>

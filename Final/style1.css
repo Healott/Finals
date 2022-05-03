@@ -1,0 +1,519 @@
+:root{
+    --bgColor: #f2f2f2;
+    --textColor: #CFD8DC;
+    --boxColor: #455A64;
+    --innerBox: #37474F;
+    --footColor: #455A64;
+    --linkColor: #263238;
+    --linkHover: #111;
+}
+*{
+  box-sizing: border-box;
+  margin: 0px;
+  #dadbda
+}
+html {
+    scroll-behavior: smooth;
+    background-color: #000;
+}
+body{
+
+  display: flex;
+  font-family: 'Open Sans', sans-serif;
+}
+.sidebar{
+  position: fixed;
+  width: 250px;
+}
+.sub{
+  visibility: hidden;
+  display: block;
+  position: absolute;
+  top: 210;
+}
+
+li{
+  position: absolute;
+  display: none;
+  top: 120 px;
+}
+
+
+.header{
+  background: #f2f2f2;
+  padding: 40px 80px;
+  border-bottom: 1px solid grey;
+}
+
+.courses{
+  margin: -10px;
+  background-color: blue;
+  color: white;
+  display: block;
+  font-family: inherit;
+  font-size: 16px;
+  width: 250px;
+  text-decoration: none;
+  text-align: left;
+  padding: 15px;
+}
+
+.header h2{
+  text-align: center;
+}
+.menu{
+  background: #f2f2f2;
+  padding: 20px;
+  margin-left: -10px;
+  margin-top: 0px;
+  height: 748px;
+}
+.link{
+  margin: -10px;
+  background-color: #f2f2f2;
+  color: black;
+  display: block;
+  font-family: inherit;
+  font-size: 16px;
+  width: 250px;
+  text-decoration: none;
+  text-align: left;
+  padding: 15px;
+}
+.links{
+  margin: -10px;
+  background-color: red;
+  color: white;
+  display: block;
+  font-family: inherit;
+  font-size: 16px;
+  width: 250px;
+  text-decoration: none;
+  text-align: left;
+  padding: 15px;
+}
+
+.link:hover{
+  background-color: #dddddd;
+}
+.mains{
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
+.mainss{
+  display: block;
+  width: 100%;
+  overflow: hidden;
+}
+.header img{
+  margin-left: -65px;
+  width: 220px;
+  height: auto;
+}
+.bgmain{
+  position: fixed;
+  display: block;
+  width: 2610px;
+  height: auto;
+  margin-left: -100px;
+  filter: blur(3px);
+  opacity: 85%;
+}
+
+.anns{
+  width: 1000px;
+  height: auto;
+  margin-top: 100px;
+  padding: 10px;
+  display: inline-block;
+  background-color: #090E35;
+  opacity: 1;
+  background: repeating-linear-gradient( 45deg, #EE1F2B, #EE1F2B 20px, #090E35 20px, #090E35 100px );
+}
+.ano{
+  width: 1000px;
+  height: auto;
+  margin-top: 100px;
+  padding: 10px;
+  display: inline-block;
+}
+.ho{
+  padding: 10px;
+  display: inline-block;
+  background-color: black;
+}
+h1{
+  left:1px;
+  text-align: center;
+  position:absolute;
+  display: inline;
+  width: 1000px;
+}
+.homePage{
+  font-family: Dutch801 Rm BT;
+  text-align: center;
+  margin-left: 251px;
+  height: 950px;
+  width: 1655px;
+  display: block;
+  position: absolute;
+  color: white;
+}
+.adminPages{
+  align-content: center;
+  text-align: center;
+  margin-left:500px;
+  height: auto;
+  width: 50px;
+  display: none;
+  position: relative;
+  color: white;
+
+}
+.cor{
+  align-content: center;
+  text-align: center;
+  margin-left:500px;
+  height: auto;
+  width: 50px;
+  display: none;
+  position: relative;
+  color: white;
+}
+.mentt{
+  align-content: center;
+  text-align: center;
+  margin-left:700px;
+  height: auto;
+  width: 50px;
+  display: none;
+  position: relative;
+  color: white;
+}
+.student{
+  text-align: center;
+  padding-left: 381px;
+  padding-right: 381px;
+  padding-top: 50px;
+  padding-bottom: 300px;
+  background-color: #f2f2f2;
+  border: 3px solid black;
+  display: inline;
+  margin-left: 580px;
+  margin-top: 100px;
+  position: absolute;
+}
+.studentOp{
+  border-radius: 15px;
+  margin-top: 60px;
+  text-align: center;
+  padding: 320px auto;
+  background-color: grey;
+  display: inline-block;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.corOp{
+  border-radius: 15px;
+  margin-top: 60px;
+  margin-left: 250px;
+  text-align: center;
+  padding: 320px auto;
+  background-color: grey;
+  display: inline-block;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.mentOp{
+  border-radius: 15px;
+  margin-top: 60px;
+  margin-left: 20px;
+  text-align: center;
+  padding: 320px auto;
+  background-color: grey;
+  display: inline-block;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.studentDiv{
+  display: block;
+  margin-top: 50px;
+  background-color: #f2f2f2;
+}
+.course{
+  background-color: red;
+  padding: 15px 50px;
+  display: block;
+  margin-top: 10px;
+}
+.add{
+  background-color: red;
+  padding: 15px 50px;
+  display: block;
+  margin-top: 10px;
+}
+.butt{
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 550px;
+  padding-right: 560px;
+  background-color: var(--bgColor);
+}
+.buttt{
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  padding-left: 275px;
+  padding-right: 275px;
+  background-color: var(--bgColor);
+}
+.buttts{
+  margin-bottom: 50px;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  padding-top: 80px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-right: 450px;
+  background-color: var(--bgColor);
+}
+.content{
+
+  text-align: center;
+}
+
+.nm{
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 100px;
+    border-radius: 5px;
+    border: hidden;
+}
+.crn{
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 100px;
+    border-radius: 5px;
+    border: hidden;
+}
+.crid{
+  width: 90px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 100px;
+    border-radius: 5px;
+    border: hidden;
+}
+.in{
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 100px;
+    border-radius: 5px;
+    border: hidden;
+}
+.mi{
+    width:120px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 100px;
+    border-radius: 5px;
+    border: hidden;
+}
+.id{
+    width:120px;
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 100px;
+    border-radius: 5px;
+    border: hidden;
+}
+.prg{
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 100px;
+    border-radius: 5px;
+    border-width: 0px;
+    border: hidden;
+}
+.year{
+  border-radius: 5px;
+
+  padding: 5px;
+}
+.txt{
+    padding: 5px;
+    font-size: 15px;
+    font-weight: 100px;
+    border-radius: 5px;
+    border-width: 1px;
+}
+.geh{
+  border-width: 10px;
+  margin-right: 10px;
+  width: 1%;
+}
+.gehh{
+  border-width: 10px;
+  width: 70%;
+}
+.a{
+  width: 20%;
+}
+.aa{
+  width: 20%;
+}
+.b{
+  width: 16%;
+}
+.bb{
+  width: 15%;
+}
+.c{
+  width: 13%;
+}
+.cc{
+  width: 2%;
+}
+.d{
+  width: 8%;
+}
+.e{
+  width: 26%;
+}
+.f{
+  width: 106%;
+}
+.con{
+  margin-bottom: 10px;
+  padding-bottom: auto;
+}
+input.remove{
+    position: absolute;
+    margin-top: -32px;
+    left: 1068px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+    background-image: linear-gradient(to right, #dd251b, #dd251b,#fc271c,#dd251b);
+	background-size: 160%;
+	font-size: .8rem;
+	color: #ffffff;
+	cursor: pointer;
+	transition: .5s;
+}
+input.removee{
+    position: absolute;
+    margin-top: -32px;
+    left: 770px;
+    font-size: 15px;
+    font-weight: bold;
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+    background-image: linear-gradient(to right, #dd251b, #dd251b,#fc271c,#dd251b);
+	background-size: 160%;
+	font-size: .8rem;
+	color: #ffffff;
+	cursor: pointer;
+	transition: .5s;
+}
+.g{
+  position: relative;
+}
+table{
+  margin-left: 10px;
+  border-collapse: collapse;
+}
+.edit{
+  position: absolute;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  background-color: red;
+  background-size: 160%;
+  font-size: .8rem;
+  color: #ffffff;
+  cursor: pointer;
+  left: 50px;
+  top: 150px;
+}
+.editt{
+  position: absolute;
+  font-size: 15px;
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  background-color: red;
+  background-size: 160%;
+  font-size: .8rem;
+  color: #ffffff;
+  cursor: pointer;
+  left: 300px;
+  top: 150px;
+}
+.editts{
+  font-size: 15px;
+  font-weight: bold;
+  padding: 8px;
+  border-radius: 6px;
+  border: none;
+  background-color: red;
+  background-size: 160%;
+  font-size: .8rem;
+  color: #ffffff;
+  cursor: pointer;
+  left: 3px;
+  top: 150px;
+}
+.words{
+  margin: 50px;
+  position: absolute;
+  text-align: left;
+  width: 1000px;
+  font-family: Bahnschrift;
+  color: black;
+  font-size: 25px;
+}
+.wordses{
+  margin: 50px;
+  position: absolute;
+  text-align: left;
+  width: 1000px;
+  font-family: Bahnschrift;
+  color: black;
+  font-size: 25px;
+}
+.wordsess{
+  margin: 30px;
+  position: absolute;
+  text-align: left;
+  width: 1000px;
+  font-family: Bahnschrift;
+  color: black;
+  font-size: 25px;
+  left: 5px;
+}
+.textar{
+
+  height: 200%;
+    width: 400%;
+    padding: 14px;
+    font-size: 15px;
+    font-weight: 100px;
+    border-radius: 5px;
+    border-width: 1px;
+    resize: none;
+}
+.inp{
+  padding: 5px;
+  font-size: 15px;
+  font-weight: 100px;
+  border-radius: 5px;
+  border: hidden;
+}
